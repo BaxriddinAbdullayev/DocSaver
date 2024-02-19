@@ -1,0 +1,25 @@
+package org.docssaverbot.docssaverbot.enums;
+
+public enum CodeMessageType {
+
+    MAIN_CONTROLLER,
+
+    MESSAGE,
+    PHOTO,
+    VIDEO,
+    DOCUMENT,
+    AUDIO,
+    VOICE,
+
+    HAVE_MESSAGE_PHOTO,
+    HAVE_MESSAGE_DOCUMENT,
+    HAVE_MESSAGE_AUDIO,
+    HAVE_MESSAGE_VOICE,
+    HAVE_MESSAGE_VIDEO,
+
+    HAVE_PHOTO_MESSAGE,
+    HAVE_DOCUMENT_MESSAGE,
+    HAVE_AUDIO_MESSAGE,
+    HAVE_VOICE_MESSAGE,
+    HAVE_VIDEO_MESSAGE
+}

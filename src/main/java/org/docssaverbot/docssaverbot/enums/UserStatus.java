@@ -1,0 +1,16 @@
+package org.docssaverbot.docssaverbot.enums;
+
+public enum UserStatus {
+    START,
+    NAMING_FOLDER,
+    FOLDER_NAMING_DONE,
+    CHOOSING_CRUD_OPERATION,
+    EDIT_FOLDER,
+    DELETE_FOLDER,
+    DELETE_FILES_WITH_FOLDER,
+    ADD_FILE,
+    VIEW_FILES,
+    VIEW_FILES_OPERATION,
+    DELETE_FILE,
+    DELETE_FILE_FOR_WARNING,
+}
